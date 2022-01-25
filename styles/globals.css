@@ -1,0 +1,86 @@
+html,
+body {
+  padding: 0;
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
+    Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+.multipleDropdownClassName .ant-picker-dropdown {
+  top: 0 !important;
+}
+
+.multipleDropdownClassName .ant-picker-cell-selected .ant-picker-cell-inner {
+  color: rgba(0, 0, 0, 0.85);
+
+  background: transparent;
+}
+
+.multipleDropdownClassName
+  .ant-picker-cell-in-view.ant-picker-cell-today
+  .ant-picker-cell-inner::before {
+  content: none;
+}
+
+.multipleDropdownClassName1 .ant-picker-dropdown {
+  top: 0 !important;
+}
+
+.multipleDropdownClassName1 .ant-picker-cell-selected .ant-picker-cell-inner {
+  color: rgba(0, 0, 0, 0.85);
+
+  background: transparent;
+}
+
+.multipleDropdownClassName1
+  .ant-picker-cell-in-view.ant-picker-cell-today
+  .ant-picker-cell-inner::before {
+  content: none;
+}
+
+.multipleDatePickerCalendarSelect {
+  margin-top: 9px !important;
+  width: 250px !important;
+  height: 35px !important;
+  background: #ffffff !important;
+  border: 1px solid #c6c9cf !important;
+  box-sizing: border-box !important;
+  border-radius: 3px !important;
+
+  border: none !important;
+}
+.multipleDatePickerCalendarSelect
+  > .ant-select-selector
+  > .ant-select-selection-overflow
+  div
+  > .ant-select-selection-item {
+  background: #fff !important;
+  border: none !important;
+  align-items: center !important;
+}
+
+.multipleDatePickerCalendarSelect
+  > .ant-select-selector
+  > .ant-select-selection-overflow
+  div
+  > .ant-select-selection-item
+  > .ant-select-selection-item-remove {
+  display: none !important;
+}
+
+.multipleDatePickerCalendarSelect > .ant-select-selector {
+  border: 1px solid #c6c9cf !important;
+  box-sizing: border-box !important;
+  border-radius: 3px !important;
+  height: 35px !important;
+  background: #ffffff !important;
+}
